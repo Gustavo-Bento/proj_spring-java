@@ -1,6 +1,18 @@
+import Header from './components/Header/index'
+import SalesCard from './components/SalesCard/index'
+import './index.css'
 function App() {
-  return(
-    <h1>olá mundo</h1>
+  return (
+    <>
+      <main>
+        <Header />
+        <section id="sales">
+          <div className="dsmeta-container">
+              <SalesCard />
+          </div>
+        </section>
+      </main>
+    </>
   )
 }
 
