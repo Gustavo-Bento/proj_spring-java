@@ -1,4 +1,6 @@
+
 import NotificationButton from '../NotificationButton/index'
+import Data from '../Date/index'
 import './styles.css'
 
 function SalesCard() {
@@ -7,10 +9,10 @@ function SalesCard() {
                 <h2 className="dsmeta-sales-title">Vendas</h2>
                 <div>
                     <div className="dsmeta-form-control-container">
-                        <input className="dsmeta-form-control" type="date" name="" id="" />
+                        <input className="dsmeta-form-control" type="date" name="entrada" id="" />
                     </div>
                     <div className="dsmeta-form-control-container">
-                        <input className="dsmeta-form-control" type="date" name="" id="" />
+                        <input className="dsmeta-form-control" type="date" name="saida" id="" />
                     </div>
                 </div>
                 <div>
